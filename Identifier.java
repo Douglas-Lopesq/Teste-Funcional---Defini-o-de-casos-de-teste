@@ -6,7 +6,7 @@ public class Identifier {
         char achar;
         boolean valid_id = false;
 
-        if (s.length() > 0) {
+        if (s != null && s.length() > 0) {
             achar = s.charAt(0);
             valid_id = valid_s(achar);
             if (s.length() > 1) {
